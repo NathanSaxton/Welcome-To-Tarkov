@@ -1,7 +1,7 @@
 /*Author: Nathan Saxton
 tarkovliving.com*/
 
-html{
+html {
     font-family: sans-serif;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -10,7 +10,7 @@ html{
 
 body {
     font-size: 14px;
-    margin:0;
+    margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #a8a69f;
@@ -21,7 +21,12 @@ footer {
     display: block;
 }
 
-h1 , h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -34,7 +39,8 @@ h1 {
     color: #807d68;
 }
 
-h1::after {/* this is the underline*/
+h1::after {
+    /* this is the underline*/
     display: block;
     content: "";
     height: 2px;
@@ -56,7 +62,7 @@ h3 {
 
 h4 {
     padding-top: 25px;
-    line-height:40px;
+    line-height: 40px;
     padding-bottom: 0px;
     font-size: 22px;
     font-weight: 900;
@@ -72,11 +78,11 @@ p {
     text-align: center;
 }
 
-.heading-padding{
+.heading-padding {
     padding-bottom: 40px;
 }
 
-section{
+section {
     padding-top: 50px;
     margin-top: 50px;
 }
@@ -113,7 +119,7 @@ section #home {
 .wrap {
     height: 100%;
     width: 100%;
-    position: absolute; 
+    position: absolute;
     /* this is to ensure images don't render 
     outside of container without forcing a scrollbar*/
     overflow: hidden;
@@ -139,7 +145,7 @@ section #home {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,.9);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, .9);
     font-variant: small-caps;
     color: #807d68;
     letter-spacing: 5pt;
@@ -209,7 +215,7 @@ section #home {
     text-align: center;
 }
 
-.enrollment form{
+.enrollment form {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -224,7 +230,9 @@ section #home {
     font-family: 'Raleway', sans-serif;
 }
 
-.enrollment input[type="text"]{
+.enrollment input[type="text"],
+.enrollment input[type="email"],
+.enrollment input[type="number"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -242,7 +250,9 @@ section #home {
     font-family: 'Raleway', sans-serif;
 }
 
-.enrollment input[type="text"]:hover{
+.enrollment input[type="text"]:hover,
+.enrollment input[type="email"]:hover,
+.enrollment input[type="number"]:hover {
     box-shadow: 0 0 18px rgba(42, 44, 40, .8);
 }
 
@@ -296,6 +306,6 @@ section #home {
 footer {
     background-color: rgba(34, 36, 32, .3);
     color: #a8a69f;
-    text-shadow: 2px 2px 8px 0 rgba(0,0,0,.4);
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .4);
     text-align: right;
 }
